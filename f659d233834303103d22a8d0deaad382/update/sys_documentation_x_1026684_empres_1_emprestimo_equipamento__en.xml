@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="number" label="Number" language="en" table="x_1026684_empres_1_emprestimo_de_equipamento">
+    <sys_documentation element="" label="Emprestimo_Equipamento" language="en" table="x_1026684_empres_1_emprestimo_equipamento">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element/>
             <help/>
             <hint/>
-            <label>Number</label>
+            <label>Emprestimo_Equipamento</label>
             <language>en</language>
-            <name>x_1026684_empres_1_emprestimo_de_equipamento</name>
-            <plural>Numbers</plural>
+            <name>x_1026684_empres_1_emprestimo_equipamento</name>
+            <plural>Emprestimo_Equipamentos</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 19:30:07</sys_created_on>
-            <sys_id>187ed2bb834303103d22a8d0deaad3a9</sys_id>
+            <sys_created_on>2026-09-07 20:28:00</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Number</sys_name>
+            <sys_name>Emprestimo_Equipamento</sys_name>
             <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
             <sys_policy/>
             <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
-            <sys_update_name>sys_documentation_x_1026684_empres_1_emprestimo_de_equipamento_number_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1026684_empres_1_emprestimo_equipamento__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 19:30:07</sys_updated_on>
+            <sys_updated_on>2026-09-07 20:28:00</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="8cbbeeb783c303103d22a8d0deaad352" extends="task" label="Emprestimo_Equipamento" max_length="40" name="x_1026684_empres_1_emprestimo_equipamento" type="collection"/>
+</database>

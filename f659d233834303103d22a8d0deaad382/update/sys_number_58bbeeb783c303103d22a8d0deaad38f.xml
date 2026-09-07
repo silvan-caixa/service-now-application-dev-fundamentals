@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
     <sys_number action="INSERT_OR_UPDATE">
-        <category display_value="" name="x_1026684_empres_1_emprestimo_de_equipamento">x_1026684_empres_1_emprestimo_de_equipamento</category>
+        <category display_value="" name="x_1026684_empres_1_emprestimo_equipamento">x_1026684_empres_1_emprestimo_equipamento</category>
         <maximum_digits>6</maximum_digits>
         <number>2000</number>
-        <prefix>EMPR</prefix>
+        <prefix>EMPREST</prefix>
         <sys_class_name>sys_number</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-07 19:30:07</sys_created_on>
-        <sys_id>187ed2bb834303103d22a8d0deaad39e</sys_id>
+        <sys_created_on>2026-09-07 20:28:01</sys_created_on>
+        <sys_id>58bbeeb783c303103d22a8d0deaad38f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>EMPR</sys_name>
+        <sys_name>EMPREST</sys_name>
         <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
         <sys_policy/>
         <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
-        <sys_update_name>sys_number_187ed2bb834303103d22a8d0deaad39e</sys_update_name>
+        <sys_update_name>sys_number_58bbeeb783c303103d22a8d0deaad38f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-07 19:30:07</sys_updated_on>
+        <sys_updated_on>2026-09-07 20:28:01</sys_updated_on>
     </sys_number>
 </record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Emprestimo_Equipamento</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Emprestimo_Equipamento</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">dd21b6f78c5103100a22deb6dd2b4e61</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 20:28:01</sys_created_on>
+        <sys_id>98bbeeb783c303103d22a8d0deaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emprestimo_Equipamento</sys_name>
+        <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
+        <sys_update_name>sys_wizard_answer_98bbeeb783c303103d22a8d0deaad383</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 20:28:01</sys_updated_on>
+        <table/>
+        <target_url>x_1026684_empres_1_emprestimo_equipamento.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

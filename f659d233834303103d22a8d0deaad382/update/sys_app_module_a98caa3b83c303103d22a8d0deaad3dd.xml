@@ -4,16 +4,18 @@
         <application display_value="App_Emprestimo">5e79e6b383c303103d22a8d0deaad37f</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="x_1026684_empres_1_emprestimo_equipamento">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>x_1026684_empres_1_emprestimo_de_equipamento</mobile_title>
+        <mobile_title>Open</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1026684_empres_1_emprestimo_equipamento</name>
-        <order>200</order>
+        <order>400</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -23,21 +25,21 @@
         <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-07 19:47:45</sys_created_on>
+        <sys_created_on>2026-09-07 20:32:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5991ea33838303103d22a8d0deaad3be</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_1026684_empres_1_emprestimo_equipamento</sys_name>
+        <sys_id>a98caa3b83c303103d22a8d0deaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
         <sys_overrides/>
         <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
         <sys_policy/>
         <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
-        <sys_update_name>sys_app_module_5991ea33838303103d22a8d0deaad3be</sys_update_name>
+        <sys_update_name>sys_app_module_a98caa3b83c303103d22a8d0deaad3dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-07 20:31:11</sys_updated_on>
+        <sys_updated_on>2026-09-07 20:32:48</sys_updated_on>
         <timeline_page/>
-        <title>Create New</title>
+        <title>Open</title>
         <uncancelable>false</uncancelable>
         <ux_list/>
         <view_name/>

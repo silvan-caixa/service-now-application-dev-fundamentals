@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_1026684_empres_1_emprestimo_de_equipamento">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_1026684_empres_1_emprestimo_equipamento">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes>enforce_dot_walk_cross_scope_access=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Number</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,16 +21,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>number</element>
+        <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_1026684_empres_1_emprestimo_de_equipamento</name>
+        <name>x_1026684_empres_1_emprestimo_equipamento</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,15 +47,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-07 19:30:07</sys_created_on>
-        <sys_id>9c7ed2bb834303103d22a8d0deaad3a5</sys_id>
-        <sys_name>Number</sys_name>
+        <sys_created_on>2026-09-07 20:28:00</sys_created_on>
+        <sys_name>x_1026684_empres_1_emprestimo_equipamento</sys_name>
         <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
         <sys_policy/>
         <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
-        <sys_update_name>sys_dictionary_x_1026684_empres_1_emprestimo_de_equipamento_number</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1026684_empres_1_emprestimo_equipamento_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-07 19:30:07</sys_updated_on>
+        <sys_updated_on>2026-09-07 20:28:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
