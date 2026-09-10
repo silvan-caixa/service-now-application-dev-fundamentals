@@ -4,27 +4,27 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>20bbeeb783c303103d22a8d0deaad3d0</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>ccf40344839783103d22a8d0deaad3aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>requested_for</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>64bbeeb783c303103d22a8d0deaad3d1</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>84f40344839783103d22a8d0deaad3ac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,27 @@
             <element>cmdb_ci</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>20bbeeb783c303103d22a8d0deaad3d2</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>04f40344839783103d22a8d0deaad3ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
+            <element>assigned_to</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>a4bbeeb783c303103d22a8d0deaad3d3</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>80f40344839783103d22a8d0deaad3ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,111 +60,111 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>e8bbeeb783c303103d22a8d0deaad3d2</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>00f40344839783103d22a8d0deaad3af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
+            <element>state</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>60bbeeb783c303103d22a8d0deaad3d4</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>8cf40344839783103d22a8d0deaad3af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
+            <element>end_date</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>2cbbeeb783c303103d22a8d0deaad3d4</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>0cf40344839783103d22a8d0deaad3b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
+            <element>start_date</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>e4bbeeb783c303103d22a8d0deaad3d5</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>88f40344839783103d22a8d0deaad3b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
+            <element>item_type</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>a0bbeeb783c303103d22a8d0deaad3d6</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>08f40344839783103d22a8d0deaad3b2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
+            <element>location_to_be_used</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>6cbbeeb783c303103d22a8d0deaad3d6</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>84f40344839783103d22a8d0deaad3b3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
+            <element>depot</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>28bbeeb783c303103d22a8d0deaad3d7</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>04f40344839783103d22a8d0deaad3b4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
+            <element>other</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>e0bbeeb783c303103d22a8d0deaad3d8</sys_id>
+            <sys_created_on>2026-09-08 16:56:48</sys_created_on>
+            <sys_id>90f40344839783103d22a8d0deaad3b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">e8bbe67783c303103d22a8d0deaad369</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 16:56:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -3,92 +3,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6cbbeeb783c303103d22a8d0deaad344</list_id>
+            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c66a270083db83103d22a8d0deaad33a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>64bbeeb783c303103d22a8d0deaad3c2</sys_id>
+            <sys_created_on>2026-09-08 19:40:30</sys_created_on>
+            <sys_id>866a270083db83103d22a8d0deaad33b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 19:40:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>priority</element>
-            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6cbbeeb783c303103d22a8d0deaad344</list_id>
+            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c66a270083db83103d22a8d0deaad33a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>e8bbeeb783c303103d22a8d0deaad3c2</sys_id>
+            <sys_created_on>2026-09-08 19:40:30</sys_created_on>
+            <sys_id>0e6a270083db83103d22a8d0deaad33b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 19:40:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6cbbeeb783c303103d22a8d0deaad344</list_id>
+            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c66a270083db83103d22a8d0deaad33a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>60bbeeb783c303103d22a8d0deaad3c3</sys_id>
+            <sys_created_on>2026-09-08 19:40:30</sys_created_on>
+            <sys_id>826a270083db83103d22a8d0deaad33c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 19:40:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6cbbeeb783c303103d22a8d0deaad344</list_id>
+            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c66a270083db83103d22a8d0deaad33a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>e4bbeeb783c303103d22a8d0deaad3c3</sys_id>
+            <sys_created_on>2026-09-08 19:40:30</sys_created_on>
+            <sys_id>0a6a270083db83103d22a8d0deaad33c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 19:40:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6cbbeeb783c303103d22a8d0deaad344</list_id>
+            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c66a270083db83103d22a8d0deaad33a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>6cbbeeb783c303103d22a8d0deaad3c3</sys_id>
+            <sys_created_on>2026-09-08 19:40:30</sys_created_on>
+            <sys_id>8e6a270083db83103d22a8d0deaad33c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 19:40:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_class_name</element>
-            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6cbbeeb783c303103d22a8d0deaad344</list_id>
+            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c66a270083db83103d22a8d0deaad33a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
-            <sys_id>e0bbeeb783c303103d22a8d0deaad3c4</sys_id>
+            <sys_created_on>2026-09-08 19:40:30</sys_created_on>
+            <sys_id>066a270083db83103d22a8d0deaad33d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 19:40:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location_to_be_used</element>
+            <list_id display_value="x_1026684_empres_1_emprestimo_equipamento" element="NULL" name="x_1026684_empres_1_emprestimo_equipamento" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c66a270083db83103d22a8d0deaad33a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-08 19:40:30</sys_created_on>
+            <sys_id>8a6a270083db83103d22a8d0deaad33d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-08 19:40:30</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +117,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-09-07 20:28:02</sys_created_on>
+            <sys_created_on>2026-09-08 19:40:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6cbbeeb783c303103d22a8d0deaad344</sys_id>
+            <sys_id>c66a270083db83103d22a8d0deaad33a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1026684_empres_1_emprestimo_equipamento</sys_name>
             <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
@@ -113,7 +128,7 @@
             <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
             <sys_update_name>sys_ui_list_x_1026684_empres_1_emprestimo_equipamento_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-07 20:28:02</sys_updated_on>
+            <sys_updated_on>2026-09-08 19:40:30</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Log" section_id="f9c380c4839f03103d22a8d0deaad3a6" sys_domain="global" table="x_1026684_empres_1_emprestimo_equipamento" version="3" view="ESS">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-08 02:52:53</sys_created_on>
+            <sys_id>46c380c4839f03103d22a8d0deaad3da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">f9c380c4839f03103d22a8d0deaad3a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-08 02:52:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-08 02:52:53</sys_created_on>
+            <sys_id>c2c380c4839f03103d22a8d0deaad3db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">f9c380c4839f03103d22a8d0deaad3a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-08 02:52:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-08 02:52:53</sys_created_on>
+            <sys_id>42c380c4839f03103d22a8d0deaad3dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">f9c380c4839f03103d22a8d0deaad3a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-08 02:52:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes_list</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-08 02:52:53</sys_created_on>
+            <sys_id>cec380c4839f03103d22a8d0deaad3dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">f9c380c4839f03103d22a8d0deaad3a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-08 02:52:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-08 02:52:53</sys_created_on>
+            <sys_id>4ec380c4839f03103d22a8d0deaad3dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">f9c380c4839f03103d22a8d0deaad3a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-08 02:52:53</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Log</caption>
+            <header>false</header>
+            <name>x_1026684_empres_1_emprestimo_equipamento</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-08 02:52:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9c380c4839f03103d22a8d0deaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1026684_empres_1_emprestimo_equipamento</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
+            <sys_update_name>sys_ui_section_f9c380c4839f03103d22a8d0deaad3a6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-08 02:52:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Service" name="ess">7410f2738c1103100a22deb6dd2b4e0c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</application>
+        <file_path/>
+        <instance_id>ac41da0f3b99435816e44a8aa4e45adc</instance_id>
+        <instance_name>dev402551</instance_name>
+        <name>sys_ui_section_f9c380c4839f03103d22a8d0deaad3a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Log" section_id="f9c380c4839f03103d22a8d0deaad3a6" sys_domain="global" table="x_1026684_empres_1_emprestimo_equipamento" version="3" view="ESS"><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 02:52:53</sys_created_on><sys_id>46c380c4839f03103d22a8d0deaad3da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">f9c380c4839f03103d22a8d0deaad3a6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 02:52:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 02:52:53</sys_created_on><sys_id>c2c380c4839f03103d22a8d0deaad3db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">f9c380c4839f03103d22a8d0deaad3a6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 02:52:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 02:52:53</sys_created_on><sys_id>42c380c4839f03103d22a8d0deaad3dc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">f9c380c4839f03103d22a8d0deaad3a6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 02:52:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes_list</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 02:52:53</sys_created_on><sys_id>cec380c4839f03103d22a8d0deaad3dc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">f9c380c4839f03103d22a8d0deaad3a6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 02:52:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 02:52:53</sys_created_on><sys_id>4ec380c4839f03103d22a8d0deaad3dd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="7410f2738c1103100a22deb6dd2b4e0c">f9c380c4839f03103d22a8d0deaad3a6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 02:52:53</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Log</caption><header>false</header><name>x_1026684_empres_1_emprestimo_equipamento</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 02:52:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f9c380c4839f03103d22a8d0deaad3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1026684_empres_1_emprestimo_equipamento</sys_name><sys_overrides/><sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package><sys_policy/><sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope><sys_update_name>sys_ui_section_f9c380c4839f03103d22a8d0deaad3a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 02:52:52</sys_updated_on><sys_user/><title>false</title><view display_value="Self Service" name="ess">7410f2738c1103100a22deb6dd2b4e0c</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1833514245</payload_hash>
+        <record_name>Emprestimo_Equipamento</record_name>
+        <reverted_from/>
+        <source>68623bff838703103d22a8d0deaad3ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 02:52:53</sys_created_on>
+        <sys_id>c2c380c4839f03103d22a8d0deaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a07eeec8200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 02:52:53</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>86c380c4699f031068487bd557210ce1</update_guid>
+        <update_guid_history>86c380c4699f031068487bd557210ce1:1833514245</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 02:56:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1a07d8f128be4e348b5b045f19decde9</sys_id>
+        <sys_metadata>f9c380c4839f03103d22a8d0deaad3a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
+        <sys_parent display_value="Emprestimo_Equipamento">8cbbeeb783c303103d22a8d0deaad352</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
+        <sys_scope_delete display_value="">015fd3a53bc64afd95a95f6fe8094321</sys_scope_delete>
+        <sys_update_name>sys_ui_section_f9c380c4839f03103d22a8d0deaad3a6</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_f9c380c4839f03103d22a8d0deaad3a6">c2c380c4839f03103d22a8d0deaad3e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 02:56:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

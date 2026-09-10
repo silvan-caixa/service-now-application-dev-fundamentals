@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="syntax_editor_macro">
+    <syntax_editor_macro action="INSERT_OR_UPDATE">
+        <comments>Define automaticamente o tipo de item de empréstimo com base no nome do CI.</comments>
+        <name>SetLoanerItemType</name>
+        <sys_class_name>syntax_editor_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 18:32:39</sys_created_on>
+        <sys_id>5a88d70c831b83103d22a8d0deaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SetLoanerItemType</sys_name>
+        <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
+        <sys_update_name>syntax_editor_macro_5a88d70c831b83103d22a8d0deaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 18:32:39</sys_updated_on>
+        <text>function onChange(control, oldValue, newValue, isLoading, isTemplate) {&#13;
+    if (isLoading) {&#13;
+        return;&#13;
+    }&#13;
+&#13;
+    g_form.getReference('cmdb_ci', checkName);&#13;
+&#13;
+    function checkName(ci) {&#13;
+        var name = ci.name + '';&#13;
+&#13;
+        // Check the name of the CI using regular expressions;&#13;
+        // Set and lock Item type field based on the CI name.&#13;
+&#13;
+        if (name.match(/blackberry.*/i) ||&#13;
+            name.match(/iphone.*/i) ||&#13;
+            name.match(/android.*/i)) {&#13;
+&#13;
+            g_form.setValue('item_type', 'cmdb_ci_mobile_device', 'Mobile Phone');&#13;
+            g_form.setReadOnly('item_type', true);&#13;
+&#13;
+        } else if (name.match(/macbook.*/i)) {&#13;
+&#13;
+            g_form.setValue('item_type', 'cmdb_ci_computer', 'Laptop');&#13;
+            g_form.setReadOnly('item_type', true);&#13;
+&#13;
+        } else {&#13;
+&#13;
+            g_form.setReadOnly('item_type', false);&#13;
+        }&#13;
+    }&#13;
+}</text>
+    </syntax_editor_macro>
+</record_update>

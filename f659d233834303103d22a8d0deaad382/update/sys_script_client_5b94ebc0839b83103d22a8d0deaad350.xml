@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Definir automaticamente o campo de localização a ser utilizado com base na localização do usuário.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Definir local do veículo de cortesia</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+	// This uses the dotwalking superpowers of the Scratchpad to use the requestor's city & state as the default location to be used.
+	// Make sure whoever you use for testing has values in their user record for this!
+
+	if (g_form.getValue('location_to_be_used') != '') {
+		return;
+	}
+
+	var city = g_scratchpad.city;
+	var country = g_scratchpad.country;
+
+	if (city && country) {
+		g_form.setValue('location_to_be_used', city + ', ' + country);
+	} else if (city) {
+		g_form.setValue('location_to_be_used', city);
+	} else if (country) {
+		g_form.setValue('location_to_be_used', country);
+	}
+
+	if (city || country) {
+		g_form.showFieldMsg(
+			'location_to_be_used',
+			'Value set automatically - you may override by editing',
+			'info'
+		);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 19:16:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b94ebc0839b83103d22a8d0deaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Definir local do veículo de cortesia</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
+        <sys_update_name>sys_script_client_5b94ebc0839b83103d22a8d0deaad350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 19:16:57</sys_updated_on>
+        <table>x_1026684_empres_1_emprestimo_equipamento</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

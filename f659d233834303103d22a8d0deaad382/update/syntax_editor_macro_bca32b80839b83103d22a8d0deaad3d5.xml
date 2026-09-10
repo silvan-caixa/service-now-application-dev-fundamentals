@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="syntax_editor_macro">
+    <syntax_editor_macro action="INSERT_OR_UPDATE">
+        <comments>Define automaticamente o local de empréstimo com base na cidade e no país do solicitante.</comments>
+        <name>SetLoanerLocation</name>
+        <sys_class_name>syntax_editor_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 19:13:23</sys_created_on>
+        <sys_id>bca32b80839b83103d22a8d0deaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SetLoanerLocation</sys_name>
+        <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
+        <sys_update_name>syntax_editor_macro_bca32b80839b83103d22a8d0deaad3d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 19:13:23</sys_updated_on>
+        <text>function onLoad() {&#13;
+&#13;
+    // This uses the dotwalking superpowers of the Scratchpad to use the requestor's city &amp; state as the default location to be used.&#13;
+    // Make sure whoever you use for testing has values in their user record for this!&#13;
+&#13;
+    if (g_form.getValue('location_to_be_used') != '') {&#13;
+        return;&#13;
+    }&#13;
+&#13;
+    var city = g_scratchpad.city;&#13;
+    var country = g_scratchpad.country;&#13;
+&#13;
+    if (city &amp;&amp; country) {&#13;
+        g_form.setValue('location_to_be_used', city + ', ' + country);&#13;
+    } else if (city) {&#13;
+        g_form.setValue('location_to_be_used', city);&#13;
+    } else if (country) {&#13;
+        g_form.setValue('location_to_be_used', country);&#13;
+    }&#13;
+&#13;
+    if (city || country) {&#13;
+        g_form.showFieldMsg(&#13;
+            'location_to_be_used',&#13;
+            'Value set automatically - you may override by editing',&#13;
+            'info'&#13;
+        );&#13;
+    }&#13;
+}</text>
+    </syntax_editor_macro>
+</record_update>
