@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 20:28:07</sys_created_on>
+        <sys_id>35bb62f783c303103d22a8d0deaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1026684_empres_1_emprestimo_equipamento.x_1026684_empres_1.user</sys_name>
+        <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
+        <sys_security_acl display_value="x_1026684_empres_1_emprestimo_equipamento">65bb62f783c303103d22a8d0deaad383</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_35bb62f783c303103d22a8d0deaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 20:28:07</sys_updated_on>
+        <sys_user_role display_value="x_1026684_empres_1.user" name="x_1026684_empres_1.user">07591633834303103d22a8d0deaad316</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</application>
+        <file_path/>
+        <instance_id>ac41da0f3b99435816e44a8aa4e45adc</instance_id>
+        <instance_name>dev402551</instance_name>
+        <name>sys_security_acl_role_35bb62f783c303103d22a8d0deaad38c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-07 20:28:07</sys_created_on><sys_id>35bb62f783c303103d22a8d0deaad38c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1026684_empres_1_emprestimo_equipamento.x_1026684_empres_1.user</sys_name><sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package><sys_policy/><sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope><sys_security_acl display_value="x_1026684_empres_1_emprestimo_equipamento">65bb62f783c303103d22a8d0deaad383</sys_security_acl><sys_update_name>sys_security_acl_role_35bb62f783c303103d22a8d0deaad38c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-07 20:28:07</sys_updated_on><sys_user_role display_value="x_1026684_empres_1.user" name="x_1026684_empres_1.user">07591633834303103d22a8d0deaad316</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-456688157</payload_hash>
+        <record_name>x_1026684_empres_1_emprestimo_equipamento.x_1026684_empres_1.user</record_name>
+        <reverted_from/>
+        <source>ba59d233834303103d22a8d0deaad397</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 20:28:07</sys_created_on>
+        <sys_id>b1bb62f783c303103d22a8d0deaad3e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a07d8e84550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 20:28:07</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>71bb62f790c30310f85175f82256d1df</update_guid>
+        <update_guid_history>71bb62f790c30310f85175f82256d1df:-456688157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1026684_empres_1_emprestimo_equipamento.x_1026684_empres_1.user">a82990e1839f0f103d22a8d0deaad3e6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 20:17:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>dffd1f1bcae24b3196f5670528d3ffc9</sys_id>
+        <sys_metadata>35bb62f783c303103d22a8d0deaad38c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1026684_empres_1_emprestimo_equipamento.x_1026684_empres_1.user</sys_name>
+        <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
+        <sys_parent display_value="x_1026684_empres_1_emprestimo_equipamento">65bb62f783c303103d22a8d0deaad383</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
+        <sys_scope_delete display_value="">015fd3a53bc64afd95a95f6fe8094321</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_35bb62f783c303103d22a8d0deaad38c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_35bb62f783c303103d22a8d0deaad38c">b1bb62f783c303103d22a8d0deaad3e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 20:17:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
