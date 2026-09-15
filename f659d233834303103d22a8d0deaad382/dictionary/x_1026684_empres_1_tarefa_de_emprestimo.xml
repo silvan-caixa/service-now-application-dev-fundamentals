@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="18213fca83d783503d22a8d0deaad3f9" extends="task" label="Tarefa de Emprestimo" max_length="40" name="x_1026684_empres_1_tarefa_de_emprestimo" type="collection"/>
+</database>
