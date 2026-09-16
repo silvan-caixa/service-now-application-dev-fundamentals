@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="8cbbeeb783c303103d22a8d0deaad352" extends="task" label="Emprestimo_Equipamento" max_length="40" name="x_1026684_empres_1_emprestimo_equipamento" type="collection">
+        <element label="Pick up reminder" max_length="255" name="pick_up_reminder" type="glide_date_time"/>
         <element label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
         <element label="Start date" mandatory="true" max_length="255" name="start_date" type="glide_date_time"/>
         <element choice="1" default="sc" label="Depot" max_length="255" name="depot" type="choice">
