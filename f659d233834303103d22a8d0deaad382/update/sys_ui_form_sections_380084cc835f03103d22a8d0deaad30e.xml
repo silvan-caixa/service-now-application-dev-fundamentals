@@ -16,31 +16,45 @@
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
+            <sys_created_by>silvan.silva</sys_created_by>
+            <sys_created_on>2026-09-17 01:30:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04570276939fc7103098b4de3bba1010</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1026684_empres_1_emprestimo_equipamento" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">380084cc835f03103d22a8d0deaad30e</sys_ui_form>
+            <sys_ui_section caption=" Lembretes" display_value=" Lembretes" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">00570276939fc7103098b4de3bba100a</sys_ui_section>
+            <sys_updated_by>silvan.silva</sys_updated_by>
+            <sys_updated_on>2026-09-17 01:30:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-09-08 02:58:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>87054c48839f03103d22a8d0deaad3ff</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1026684_empres_1_emprestimo_equipamento" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">380084cc835f03103d22a8d0deaad30e</sys_ui_form>
             <sys_ui_section caption="Log" display_value="Log" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">cf054c48839f03103d22a8d0deaad3af</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-08 02:58:25</sys_updated_on>
+            <sys_updated_by>silvan.silva</sys_updated_by>
+            <sys_updated_on>2026-09-17 01:30:51</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-09-08 02:49:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f7e24444839f03103d22a8d0deaad3b8</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1026684_empres_1_emprestimo_equipamento" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">380084cc835f03103d22a8d0deaad30e</sys_ui_form>
             <sys_ui_section caption="statistics" display_value="statistics" name="x_1026684_empres_1_emprestimo_equipamento" sys_domain="global" view="Default view">b7e24444839f03103d22a8d0deaad357</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-09-08 02:58:25</sys_updated_on>
+            <sys_updated_by>silvan.silva</sys_updated_by>
+            <sys_updated_on>2026-09-17 01:30:51</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1026684_empres_1_emprestimo_equipamento</name>
