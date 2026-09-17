@@ -12,14 +12,14 @@
         <script><![CDATA[var LoanerUtils = Class.create();
 LoanerUtils.prototype = {
     /**********
-   *
-   * Initialization stuff goes here...
-   * x_1026684_empres_1.pickUp.leadtime
-   *
-   **********/
-    initialize : function() {
-        this.pickupLeadTime    = gs.getProperty('x_1026684_empres_1.pickup.leadtime', 24) * 60 * 60 * 1000;
-        this.returnRemindTime  = gs.getProperty('x_1026684_empres_1.return.remindtime', 24) * 60 * 60 * 1000;
+     *
+     * Initialization stuff goes here...
+     * x_1026684_empres_1.pickUp.leadtime
+     *
+     **********/
+    initialize: function() {
+        this.pickupLeadTime = gs.getProperty('x_1026684_empres_1.pickup.leadtime', 24) * 60 * 60 * 1000;
+        this.returnRemindTime = gs.getProperty('x_1026684_empres_1.return.remindtime', 24) * 60 * 60 * 1000;
         this.overdueRemindTime = gs.getProperty('x_1026684_empres_1.overdue.remindtime', 24) * 60 * 60 * 1000;
 
         this.appScopeName = gs.getCurrentScopeName();
@@ -31,19 +31,19 @@ LoanerUtils.prototype = {
     },
 
     /**********
-   *
-   * getNullPickupReminders - Get a list of records in state 'Ready for Pickup' 
-   *                          that haven't been reminded before
-   *
-   * @param - None
-   * @return - array of sys_ids
-   *
-   **********/
-    getNullPickupReminders : function() {
+     *
+     * getNullPickupReminders - Get a list of records in state 'Ready for Pickup' 
+     *                          that haven't been reminded before
+     *
+     * @param - None
+     * @return - array of sys_ids
+     *
+     **********/
+    getNullPickupReminders: function() {
 
         var a = [];
         var noticeTime = new GlideDateTime();
-        noticeTime.add(this.pickupLeadTime); 
+        noticeTime.add(this.pickupLeadTime);
 
         // Notice that the below is looking for the same LNR records as the scheduled script  
         var gr = new GlideRecord(this.loanerTableName);
@@ -59,14 +59,14 @@ LoanerUtils.prototype = {
     },
 
     /**********
-   *
-   * sendPickupReminder - Queue an event to send a pickup reminder and update the pickup reminder field
-   *
-   * @param - id: sys_id of the loaner record to check
-   * @return - None
-   *
-   **********/
-    sendPickupReminder : function(id) {
+     *
+     * sendPickupReminder - Queue an event to send a pickup reminder and update the pickup reminder field
+     *
+     * @param - id: sys_id of the loaner record to check
+     * @return - None
+     *
+     **********/
+    sendPickupReminder: function(id) {
 
         var gr = new GlideRecord(this.loanerTableName);
 
@@ -85,14 +85,14 @@ LoanerUtils.prototype = {
     },
 
     /**********
-   *
-   * getNullReturnReminders - Get a list of records that need reminding to return their item
-   *
-   * @param - None
-   * @return - array of sys_ids
-   *
-   **********/
-    getNullReturnReminders : function() {
+     *
+     * getNullReturnReminders - Get a list of records that need reminding to return their item
+     *
+     * @param - None
+     * @return - array of sys_ids
+     *
+     **********/
+    getNullReturnReminders: function() {
 
         var a = [];
         var noticeTime = new GlideDateTime();
@@ -100,7 +100,7 @@ LoanerUtils.prototype = {
 
         var gr = new GlideRecord(this.loanerTableName);
         gr.addQuery('state', 17); // State "Checked Out"
-        gr.addQuery('return_reminder', '');
+        gr.addQuery('u_return_reminder', '');
         gr.addQuery('end_date', '<=', noticeTime);
         gr.query();
 
@@ -111,14 +111,14 @@ LoanerUtils.prototype = {
     },
 
     /**********
-   *
-   * sendReturnReminder - Queue an event to send a return reminder and update the return reminder field
-   *
-   * @param - id: sys_id of the loaner record to check
-   * @return - None
-   *
-   **********/
-    sendReturnReminder : function(id) {
+     *
+     * sendReturnReminder - Queue an event to send a return reminder and update the return reminder field
+     *
+     * @param - id: sys_id of the loaner record to check
+     * @return - None
+     *
+     **********/
+    sendReturnReminder: function(id) {
 
         var gr = new GlideRecord(this.loanerTableName);
 
@@ -128,7 +128,7 @@ LoanerUtils.prototype = {
         }
 
         // Log the time the return reminder was sent and avoid sending again
-        gr.return_reminder = new GlideDateTime().getDisplayValue();
+        gr.u_return_reminder = new GlideDateTime().getDisplayValue();
         gr.update();
 
         // Send the return reminder
@@ -137,13 +137,13 @@ LoanerUtils.prototype = {
     },
 
     /**********
-   *
-   * getOverdueRequests - retrieve a list of overdue records
-   *
-   * @param - None
-   * @return: array of sys_ids
-   *
-   **********/
+     *
+     * getOverdueRequests - retrieve a list of overdue records
+     *
+     * @param - None
+     * @return: array of sys_ids
+     *
+     **********/
     getOverdueRequests : function() {
 
         var a = [];
@@ -182,7 +182,7 @@ LoanerUtils.prototype = {
         var noticeTime = new GlideDateTime();
         noticeTime.subtract(this.overdueRemindTime);
 
-        var baseDate = (gr.last_overdue_reminder == '') ? gr.end_date : gr.last_overdue_reminder;
+        var baseDate = (gr.u_overdue_reminder == '') ? gr.end_date : gr.u_overdue_reminder;
         
         return (baseDate <= noticeTime) ? true : false;
         
@@ -190,7 +190,7 @@ LoanerUtils.prototype = {
         // overdue.remindtime is set to 24
         // Original noticeTime is 2:00pm Mar 28
         // Subtract overdue.remindtime for new noticeTime: 2:00pm Mar 27
-        // baseDate = last_overdue_reminder = 4:00am Mar 28 (10 hours ago)
+        // baseDate = u_overdue_reminder = 4:00am Mar 28 (10 hours ago)
         // Is 4:00am Mar 28 before 2:00pm Mar 27?
         // No, so no send.
         
@@ -198,7 +198,7 @@ LoanerUtils.prototype = {
         // overdue.remindtime is set to 8
         // Original noticeTime is 2:00pm Mar 28
         // Subtract overdue.remindtime for new noticeTime: 6:00am Mar 28
-        // baseDate = last_overdue_reminder = 4:00am Mar 28 (10 hours ago)
+        // baseDate = u_overdue_reminder = 4:00am Mar 28 (10 hours ago)
         // Is 4:00am Mar 28 before 6:00am Mar 28?
         // Yes, so send.
         
@@ -218,16 +218,16 @@ LoanerUtils.prototype = {
         var gr = new GlideRecord(this.loanerTableName);
 
         if (!gr.get(id)) {
-            gs.error('>>>DEBUG: LoanerUtils: setLastOverdueReminder(): FAILED TO RETRIEVE RECORD');
+            gs.error('>>>DEBUG: LoanerUtils: setOverdueReminder(): FAILED TO RETRIEVE RECORD');
             return;
         }
 
         // Currently there is no application logic that uses the overdue count
         // What future requirement would _you_ use this for? ;-)
-        ++gr.overdue_count;
+        ++gr.u_overdue_count;
 
         // Record the last time a reminder was sent
-        gr.last_overdue_reminder = new GlideDateTime().getDisplayValue();
+        gr.u_overdue_reminder = new GlideDateTime().getDisplayValue();
         gr.update();
 
         // Send the overdue reminder
@@ -241,13 +241,13 @@ LoanerUtils.prototype = {
         <sys_created_by>silvan.silva</sys_created_by>
         <sys_created_on>2026-09-16 23:23:03</sys_created_on>
         <sys_id>d7576d36939bc7103098b4de3bba1097</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>LoanerUtils</sys_name>
         <sys_package display_value="App_Emprestimo" source="x_1026684_empres_1">f659d233834303103d22a8d0deaad382</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="App_Emprestimo">f659d233834303103d22a8d0deaad382</sys_scope>
         <sys_update_name>sys_script_include_d7576d36939bc7103098b4de3bba1097</sys_update_name>
         <sys_updated_by>silvan.silva</sys_updated_by>
-        <sys_updated_on>2026-09-17 01:15:30</sys_updated_on>
+        <sys_updated_on>2026-09-17 14:27:47</sys_updated_on>
     </sys_script_include>
 </record_update>
